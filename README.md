@@ -1,6 +1,6 @@
 # CDDS-CESM
  
-*Collection of documentation, tutorials, and notebooks highlighting how to set up, run, and analysize CESM/CAM simulations on the Cheyenne Supercomputer. This repo assumes basic knowelege of the CESM enviroment and Python. In order to get the most out of this repo, please review the provided documentation and tutorials linked below*
+*Collection of documentation, tutorials, and notebooks highlighting how to set up, run, and analyze CESM/CAM simulations on the Cheyenne Supercomputer. This repo assumes basic knowledge of the CESM environment and Python. In order to get the most out of this repo, please review the provided documentation and tutorials linked below*
 
 ## Requirements
 - Access to the Cheyenne Supercomputer
@@ -16,15 +16,19 @@
 - Community Earth System Model (CESM)
 
 [CAM 6.0 User's Guide](https://ncar.github.io/CAM/doc/build/html/index.html)
-- Community Atmosperic Model (CAM)
+- Community Atmosphere Model (CAM)
 
 [CIME Documentation](http://esmci.github.io/cime/versions/master/html/index.html)
 - Coupling Infrastructure for Modeling Earth (CIME)
 
-## Directories
+## Cheyenne Environment
+You can interface with Cheyenne using a linux terminal envrioment through SSH.  
 
 ## Basic Simulation
+
 
 ## Changing SST Boundary Conditions
 
 ## Notebooks
+
+

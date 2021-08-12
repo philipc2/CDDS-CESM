@@ -24,10 +24,37 @@
 ## Cheyenne Environment
 You can interface with Cheyenne using a linux terminal envrioment through SSH.  
 
-## Basic Simulation
+## Workflow
+
+#### Creating a Case
+
+Once you have decided on a compset and grid resolution, you can run the case creation command. For your casename, you can specify a directory and name for your case to be created in. You need to also specify what project account you are going to use. 
+```
+./create_newcase --case CASENAME --compset COMPSET --res GRID --project PROJECT
+```
+
+#### Setting up the Case
+This command creates scripts needed to run the model and namelist files. 
+
+```
+./case.setup
+```
+
+#### Building the Case
+
+```
+./case.build
+```
+or
+```
+qcmd -- ./case.build
+```
+
 
 
 ## Changing SST Boundary Conditions
+In order to prescribe SST/ICE, you must be using either an A or F compset. The first step is to create a case as shown above. Once 
+
 
 ## Notebooks
 

@@ -22,7 +22,7 @@
 - Coupling Infrastructure for Modeling Earth (CIME)
 
 ## Cheyenne Environment
-You can interface with Cheyenne using a linux terminal envrioment through SSH.  
+You can interface with Cheyenne using a linux terminal environment through SSH.  
 
 ## Workflow
 
@@ -51,11 +51,19 @@ qcmd -- ./case.build
 ```
 
 
-
 ## Changing SST Boundary Conditions
-In order to prescribe SST/ICE, you must be using either an A or F compset. The first step is to create a case as shown above. Once 
+In order to prescribe SST/ICE, you must be using either an A or F compset. The first step is to create your initial case. Then, you need to change the location of the data file using.
+```
+./xmlchange SSTICE_DATA_FILENAME= FILEDIR
+```
+You can then use this command to check if the file was successfully changed. 
+```
+./xmlquery SSTICE_DATA_FILENAME
+```
 
+Other modifications might be needed, but will update this document if it's necessary.
 
 ## Notebooks
+
 
 

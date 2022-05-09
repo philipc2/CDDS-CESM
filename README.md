@@ -3,7 +3,7 @@
 *Collection of documentation, tutorials, and notebooks highlighting how to set up, run, and analyze CESM/CAM simulations on the Cheyenne Supercomputer. This repo assumes basic knowledge of the CESM environment and Python. In order to get the most out of this repo, please review the provided documentation and tutorials linked below*
 
 ## Requirements
-- Access to the Cheyenne Supercomputer
+- Access to the NCAR Cheyenne Supercomputer
 - Python 
 
 ## Documentation & Tutorials
